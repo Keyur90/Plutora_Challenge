@@ -9,7 +9,7 @@
 1. Clone the project from this GIT repo into the local folder.
 2. Open the Terminal
 3. Make sure you are in the folder "Plutora_Challenge" on the terminal
-4. Write the command "npm install" in the terminal (this will install all the required packages)
+4. Write the command "npm install cypress --save-dev" in the terminal (this will install all the required packages)
 5. Make sure your project got the folder "node_modules" after doing the installation
 
 # To run the Test cases on headless mode
