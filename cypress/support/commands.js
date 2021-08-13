@@ -33,3 +33,8 @@ Cypress.Commands.add("validateErrors", () => {
   );
 });
 
+Cypress.Commands.add("goToContactPage", () => {
+  cy.visit("/");
+  cy.contains("Contact").click();
+  cy.contains("Submit").click();
+});
