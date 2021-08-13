@@ -1,0 +1,14 @@
+{
+    "experimentalSourceRewriting": false,
+    "chromeWebSecurity": false,
+    "video": true,
+    "screenshots": true,
+    "execTimeout": 10000,
+    "defaultCommandTimeout": 100000,
+    "experimentalStudio": true,
+    "baseUrl": "http://jupiter.cloud.planittesting.com/",
+    "env": {
+        "URL": "http://api.openweathermap.org/data/3.0/stations?",
+        "APP_ID": "f260f46317ac6d8547a901ab4d0204d8"
+    }
+}
