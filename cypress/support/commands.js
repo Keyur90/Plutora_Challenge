@@ -23,16 +23,6 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
-Cypress.Commands.add("validateErrors", () => {
-  cy.get("#forename-err").should("have.text", "Forename is required");
-  cy.get("#email-err").should("have.text", "Email is required");
-  cy.get("#message-err").should("have.text", "Message is required");
-  cy.contains("complete the form correctly").should(
-    "contain.text",
-    "We welcome your feedback - but we won't get it unless you complete the form correctly."
-  );
-});
-
 Cypress.Commands.add("goToContactPage", () => {
   cy.visit("/");
   cy.contains("Contact").click();
