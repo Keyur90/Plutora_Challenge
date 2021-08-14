@@ -9,17 +9,16 @@
 1. Clone the project from this GIT repo into the local folder.
 2. Open the Terminal
 3. Make sure you are in the folder "Plutora_Challenge" on the terminal
-4. Write the command "npm install cypress --save-dev" in the terminal (this will install all the required packages)
-5. Make sure your project got the folder "node_modules" after doing the installation
+4. Write the command "npm install-test" in the terminal (this will install all the required packages and it will execute the test cases once packges are downloaded, it will run the test cases in chrome on headed mode)
+5. Make sure your project got the folder "node_modules" after doing the installation of packages
 
 # To run the Test cases on headless mode
 
-1. Write the command "cypress run" (this will execute the test cases on headless mode)
+Write the command "yarn test --headless" (this will execute the test cases on chrome browser)
 
-# To run the test cases on headed mode
+# Report
+Once it executes all the test cases, it will automatically run the allure report and it will display the result on chrome browser automatically.
+If needs to run explicitly again open index.html file from the folder allure-report
 
-1. Write the command "cypress open" (this will open the cypress terminal where you could see the test files, click on any of them to start the execution)
-
-# To run the test cases on a specific browser like chrome in headless mode
-
-1. Write the command "cypress run -b chrome --headless" (this will execute the test cases on chrome browser on headless mode)
+#Limitations
+This framework only supports Chrome
