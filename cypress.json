@@ -9,6 +9,10 @@
     "baseUrl": "http://jupiter.cloud.planittesting.com/",
     "env": {
         "URL": "http://api.openweathermap.org/data/3.0/stations?",
-        "APP_ID": "f260f46317ac6d8547a901ab4d0204d8"
+        "APP_ID": "f260f46317ac6d8547a901ab4d0204d8",
+        "allureResultsPath": "C:/Users/1161277/Documents/Test/Plutora_Challenge/allure-results",
+        "tmsPrefix": "https://url-to-bug-tracking-system/task-",
+        "issuePrefix": "https://url-to-tms/tests/caseId-",
+        "allure-report": "C:/Users/1161277/Documents/Test/Plutora_Challenge/allure-report"
     }
 }

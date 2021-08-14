@@ -32,7 +32,7 @@ describe("Get the station details", () => {
         expect(response.status).to.eq(201);
         expect(response.body).have.property(
           "name",
-          "San Francisco Test Station"
+          "San Francisco Test Station1"
         );
       });
   });
