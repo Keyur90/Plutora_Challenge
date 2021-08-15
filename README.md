@@ -27,4 +27,4 @@ Once it executes all the test cases, it will automatically run the allure report
 If needs to run explicitly again open index.html file from the folder allure-report
 
 #Limitations
-This framework only supports Chrome
+This framework only supports Chrome version greater than 90 and Windows OS
