@@ -4,6 +4,11 @@
 
 1.  MS vscode
 
+# Prerequisite
+1. Make sure Node.js is already installed into the machine and the environment vairable is set accordingly for Node.js
+
+
+
 # Steps to build Project
 
 1. Clone the project from this GIT repo into the local folder.
