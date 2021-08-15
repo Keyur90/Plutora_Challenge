@@ -5,8 +5,7 @@
 1.  MS vscode
 
 # Prerequisite
-1. Make sure Node.js is already installed into the machine and the environment vairable is set accordingly for Node.js
-
+1. Make sure Node.js is already installed into the machine and the path in environment vairable settings is set.
 
 
 # Steps to build Project
