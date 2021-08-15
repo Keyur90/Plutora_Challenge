@@ -5,7 +5,9 @@
 1.  MS vscode
 
 # Prerequisite
-1. Make sure Node.js is already installed into the machine and the path in environment vairable settings is set.
+1. Make sure Node.js is already installed into the machine if not than you can download and install from here https://nodejs.org/en/download/ (follow the steps to install the same https://www.journaldev.com/7402/node-js-environment-setup-node-js-installation)
+2. Set the environment variable to the path location of installed node.js (this will be in program files, follow the steps from here https://stackoverflow.com/questions/27864040/fixing-npm-path-in-windows-8-and-10#:~:text=Use%20the%20global%20Search%20Charm,C%3A%5CProgram%20Files%5Cnodejs%20.)
+ 
 
 
 # Steps to build Project
